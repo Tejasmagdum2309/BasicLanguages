@@ -1,0 +1,13 @@
+a = input("Enter a : ")
+b = input("Enter b : ")
+a = int(a)
+b = int(b)
+print("a + b =",a+b)
+name = "tejas is oooook"
+print(name[0:5:3])
+p=name.endswith("as")
+print(p)
+p=name.capitalize()
+print(p)
+e=name.replace("is" , "no")
+print(e)
